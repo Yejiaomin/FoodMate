@@ -1,0 +1,34 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/combo1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Combo 1"
+        android:layout_marginBottom="8dp" />
+
+    <TextView
+        android:id="@+id/combo2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Combo 2"
+        android:layout_marginBottom="8dp" />
+
+    <TextView
+        android:id="@+id/combo3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Combo 3"
+        android:layout_marginBottom="8dp" />
+
+    <TextView
+        android:id="@+id/othersCombo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Others"
+        android:textColor="@android:color/holo_blue_dark" />
+</LinearLayout>

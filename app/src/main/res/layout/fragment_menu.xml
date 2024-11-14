@@ -1,0 +1,38 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- 显示前三个菜单项 -->
+    <TextView
+        android:id="@+id/menu1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Menu Item 1"
+        android:layout_marginBottom="8dp" />
+
+    <TextView
+        android:id="@+id/menu2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Menu Item 2"
+        android:layout_marginBottom="8dp" />
+
+    <TextView
+        android:id="@+id/menu3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Menu Item 3"
+        android:layout_marginBottom="8dp" />
+
+    <!-- Others 按钮 -->
+    <TextView
+        android:id="@+id/othersMenu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Others"
+        android:textColor="@android:color/holo_blue_dark"
+        android:layout_marginTop="16dp" />
+</LinearLayout>
