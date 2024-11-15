@@ -7,4 +7,6 @@
     <string name="input_email">Email</string>
     <string name="input_password">Password</string>
     <string name="input_confirm_password">Confirm Password</string>
+    <string name="as_restaurant">As Restaurant</string>
+
 </resources>
